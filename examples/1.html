@@ -23,8 +23,6 @@
 		<div id="container"></div>
 		<div id="blocker"></div>
 
-        <!-- <script src="/mind/OBJLoader.js"></script> -->
-        
         <script >
 			function changer(e,f){
 				alert(f);
@@ -48,19 +46,6 @@ var danceThemMemories = function(memories) {
         m.position.setZ(p.z + (tp.z - p.z)/4);
     });
 }
-
-// var AddBrain = function() {
-//     var manager = new THREE.LoadingManager();
-//     manager.onProgress = function ( item, loaded, total ) {
-// 	    console.log( item, loaded, total );
-//     };
-
-//     var loader = new THREE.OBJLoader( manager );
-//     loader.load( 'mind/mindo.txt', function ( object ) {
-// 	    object.position.y = 0;
-// 	    scene.add( object );
-//     } );
-// }
 
 var MakeEditable = function(edits) {
     var editorDiv = document.createElement( 'div' );
