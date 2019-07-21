@@ -243,8 +243,6 @@ function init() {
 
     scene = new THREE.Scene();
 
-    //AddBrain();
-
     renderer = new CSS3DRenderer();
     renderer.setSize( window.innerWidth, window.innerHeight );
     container.appendChild( renderer.domElement );
@@ -285,6 +283,12 @@ var showKeyPressCodes = false;
 
 function onKeyDown(ev)
 {
+    switch(ev.code) {
+    case 'Space':
+        alert(1);
+		pagesGroup.add( new Element( 'command.html', 500, 500, 0) );
+		break;
+    }
 	if(!mover.editing) {
 		switch(ev.code) {
 			case 'ArrowUp':
@@ -305,9 +309,6 @@ function onKeyDown(ev)
 			case 'PageDown':
 				mover.z -= 10; 
 				break;        
-			case 'Space':
-				pagesGroup.add( new Element( 'atari.html', 500, 500, 0) );
-				break;
             case 'F2':
                 dancingMemories = !dancingMemories;
                 break;
@@ -344,6 +345,9 @@ function onKeyDown(ev)
                 break;
             case 'KeyK':
                 showKeyPressCodes = !showKeyPressCodes;
+                break;
+            case 'Escape':
+                window.show("http://wsr2.com://index.html");
                 break;
 			default:
                 if(showKeyPressCodes==true)
