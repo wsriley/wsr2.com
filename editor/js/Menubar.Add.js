@@ -2,7 +2,7 @@
  * @author mrdoob / http://mrdoob.com/
  */
 
-Menubar.Add = function ( editor ) {
+ Menubar.Add = function ( editor ) {
 
 	var strings = editor.strings;
 
@@ -17,6 +17,25 @@ Menubar.Add = function ( editor ) {
 	var options = new UI.Panel();
 	options.setClass( 'options' );
 	container.add( options );
+
+	// Memory
+
+	var option = new UI.Row();
+	option.setClass( 'option' );
+	option.setTextContent( strings.getKey( 'menubar/add/memory' ) );
+	option.onClick( function () {
+
+		var mesh = new e3d.Memory();
+		mesh.name = 'Memory';
+
+		editor.execute( new AddObjectCommand( editor, mesh ) );
+
+	} );
+	options.add( option );
+
+	//
+
+	options.add( new UI.HorizontalRule() );
 
 	// Group
 

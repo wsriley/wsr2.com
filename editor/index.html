@@ -9,9 +9,14 @@
 		<link rel="shortcut icon" href="../files/favicon.ico" />
 	</head>
 	<body ontouchstart="">
+
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" id="theme" href="css/light.css">
 
+		<script type="module">
+			import e3d from './js/memory.js';
+			import { CSS3DRenderer, CSS3DObject } from '../examples/jsm/renderers/CSS3DRenderer.js';
+		</script>
 		<script src="../build/three.js"></script>
 
 		<script src="../examples/js/controls/EditorControls.js"></script>
@@ -201,7 +206,7 @@
 			var sidebar = new Sidebar( editor );
 			document.body.appendChild( sidebar.dom );
 
-			var menubar = new Menubar( editor );
+			var menubar = new Menubar( editor, "test" );
 			document.body.appendChild( menubar.dom );
 
 			//

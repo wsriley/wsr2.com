@@ -34,6 +34,7 @@ var Strings = function ( config ) {
 			'menubar/edit/fixcolormaps': 'Fix Color Maps',
 
 			'menubar/add': 'Add',
+			'menubar/add/memory': 'Memory',
 			'menubar/add/group': 'Group',
 			'menubar/add/plane': 'Plane',
 			'menubar/add/box': 'Box',
@@ -329,6 +330,7 @@ var Strings = function ( config ) {
 			'menubar/edit/fixcolormaps': '修复颜色贴图',
 
 			'menubar/add': '添加',
+			'menubar/add/memory': 'x',
 			'menubar/add/group': '组',
 			'menubar/add/plane': '平面',
 			'menubar/add/box': '正方体',
