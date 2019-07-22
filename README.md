@@ -1,3 +1,5 @@
+Started my site off by forking and changing a little three.js => e3d style.
+
 three.js
 ========
 
