@@ -37,7 +37,7 @@ Here's a link to the editor so we can start changing the world around us:
 [Editor](./editor)E3D EDITOR<= Give it a whirl:
 
 Back in '92 I put the answer to life the universe and everything into a game I wrote called TomeQuest'
-[Tomewuest](http://wsr2.com/tomequest)<= Take a look:
+[TomeQuest](http://wsr2.com/tomequest)<= Take a look:
 
 Just sayin
 
