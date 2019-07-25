@@ -1,15 +1,15 @@
-Info for (emergencies)[./emergencies.html].
+Info for (./emergencies.html)[emergencies].
 <br>
 Whazzz Upppp!<br>
 <br>
 Where would you like to go?<br>
 <br>
-(See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!)[href="./mindOfRiley/mindOfRiley.html]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!<br>
+(href="./mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!<br>
 <br>
-(LINKED IN)[href="https://www.linkedin.com/in/wsriley/"]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.<br><br>
-(adventual.com)[http://adventual.com([ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://adventual.com"[ADVENTUAL.COM]</a><br>
+(href="https://www.linkedin.com/in/wsriley/")[LINKED IN]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.<br><br>
+(http://adventual.com)[ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://adventual.com)[ADVENTUAL.COM]</a><br>
 <br>
-(E3D.US)[http://e3d.us]<= My biz is hinted at here:<br><br>
+(http://e3d.us)[E3D.US]<= My biz is hinted at here:<br><br>
 <br>
 This page is lightweight so whatever device you use you can start without no problemos!<br>
 -=-=-=-=<br>
@@ -38,12 +38,12 @@ So we can get to KKJ sooner!!<br>
 <br>
 Here's a link to the editor so we can start changing the world around us:
 <br>
-(./editor/index.html)[./E3D EDITOR]<= Give it a whirl:<br><br>
+(./editor/index.html)[E3D EDITOR]<= Give it a whirl:<br><br>
 <br>
 
 Back in '92 I put the answer to life the universe and everything into a game I wrote called TomeQuest'
 <br>
-(TOMEQUEST)[./tomequest/index.html]<= Take a look:<br><br>
+(./tomequest/index.html)[TOMEQUEST]<= Take a look:<br><br>
 <br>
 
 
