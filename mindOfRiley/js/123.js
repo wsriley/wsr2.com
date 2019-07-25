@@ -204,20 +204,20 @@ function init() {
 
     let memories = [
         '$DjupjNoYRPo',
-        // '$z4Rp4595Akc',
-        // '$7ArWV8b0Y4g',
-        // '$pDYcIdq4OXY',
-        // '$DI291paS1TU',
-        // '$WJtXpufm2eg',
-        // '$cEgc8cOQiwc',
+        '$z4Rp4595Akc',
+        '$7ArWV8b0Y4g',
+        '$pDYcIdq4OXY',
+        '$DI291paS1TU',
+        '$WJtXpufm2eg',
+        '$cEgc8cOQiwc',
         './atari.html?rom=2600/1.bin',
-        // './atari.html?rom=2600/2.bin',
-        // './atari.html?rom=2600/3.bin',
-        // './atari.html?rom=2600/4.bin',
-        // './atari.html?rom=2600/5.bin',
-        // './atari.html?rom=2600/6.bin',
-        // './atari.html?rom=2600/7.bin',
-        // './atari.html?rom=2600/8.bin',
+        './atari.html?rom=2600/2.bin',
+        './atari.html?rom=2600/3.bin',
+        './atari.html?rom=2600/4.bin',
+        './atari.html?rom=2600/5.bin',
+        './atari.html?rom=2600/6.bin',
+        './atari.html?rom=2600/7.bin',
+        './atari.html?rom=2600/8.bin',
         'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39.23424334265292!2d-77.25284953259909!3d38.7779409859827!2m3!1f86.75000000000031!2f63.69097109342335!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sus!4v1563782668838!5m2!1sen!2sus"'
     ];
 
