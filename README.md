@@ -37,14 +37,14 @@ Here's a link to the editor so we can start changing the world around us:
 [Editor](./editor)E3D EDITOR<= Give it a whirl:
 
 Back in '92 I put the answer to life the universe and everything into a game I wrote called TomeQuest'
-[Tomewuest](http://wsr2.com/tomequest)TOMEQUEST<= Take a look:
+[Tomewuest](http://wsr2.com/tomequest)<= Take a look:
 
 Just sayin
 
 For information on getting married in Arlington VA click
 [here](https://courts.arlingtonva.us/circuit-court/marriage/)
 
-Check out other sites here:[We81](http:/we81.com)
+Check out other sites here: [We81](http:/we81.com)
 
 Roberto has told me that Clapper told him Donald Trump is going down - Burn Notice Style
 
