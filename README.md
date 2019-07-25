@@ -3,8 +3,7 @@ Whazzz Upppp!
 Where would you like to go?
 (./mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
 (https://www.linkedin.com/in/wsriley/)[LINKED IN]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
-(http://adventual.com)[ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://adventual.com[ADVENTUAL.COM</a
-(http://e3d.us)[E3D.US]<= My biz is hinted at here:
+(http://adventual.com)[ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://e3d.us)[ADVENTUAL.COM]<= My biz is hinted at here:
 This page is lightweight so whatever device you use you can start without no problemos!
 -=-=-=-=
 My philoso FEE is that we are all equal and deserve equal help and RESPECT!
