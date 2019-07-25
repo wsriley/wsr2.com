@@ -1,15 +1,15 @@
-<a href='./emergencies.html>For emegency conect info click this:'</a>
+Info for (emergencies)[./emergencies.html].
 <br>
 Whazzz Upppp!<br>
 <br>
 Where would you like to go?<br>
 <br>
-<a href="./mindOfRiley/mindOfRiley.html" target="_blank">See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!</a>: WARNING!:I am a time traveller and spoilers may BEE PREZENT!<br>
+(See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!)[href="./mindOfRiley/mindOfRiley.html]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!<br>
 <br>
-<a href="https://www.linkedin.com/in/wsriley/">LINKED IN</a>'<'= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.<br><br>
-<a href="http://adventual.com">ADVENTUAL.COM</a>'<'= God Does Not Exist but we can build him out of paperclips someday at <a href="http://adventual.com">ADVENTUAL.COM</a><br>
+(LINKED IN)[href="https://www.linkedin.com/in/wsriley/"]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.<br><br>
+(adventual.com)[http://adventual.com([ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://adventual.com"[ADVENTUAL.COM]</a><br>
 <br>
-<a href="http://e3d.us">E3D.US</a>'<'= My biz is hinted at here:<br><br>
+(E3D.US)[http://e3d.us]<= My biz is hinted at here:<br><br>
 <br>
 This page is lightweight so whatever device you use you can start without no problemos!<br>
 -=-=-=-=<br>
@@ -38,12 +38,12 @@ So we can get to KKJ sooner!!<br>
 <br>
 Here's a link to the editor so we can start changing the world around us:
 <br>
-<a href="./editor/index.html">E3D EDITOR</a>'<'= Give it a whirl:<br><br>
+(./editor/index.html)[./E3D EDITOR]<= Give it a whirl:<br><br>
 <br>
 
 Back in '92 I put the answer to life the universe and everything into a game I wrote called TomeQuest'
 <br>
-<a href="./tomequest/index.html">TOMEQUEST</a>'<'= Take a look:<br><br>
+(TOMEQUEST)[./tomequest/index.html]<= Take a look:<br><br>
 <br>
 
 
