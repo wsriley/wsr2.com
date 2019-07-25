@@ -1,3 +1,5 @@
+
+[READ THIS](http://wsr2.com)
 Info for (emergencies)["emergencies.html"].
 Whazzz Upppp!
 (./mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
