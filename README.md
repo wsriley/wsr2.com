@@ -1,4 +1,4 @@
-<a href='./emergencies.html>For emegency conect info click this:</a>
+<a href='./emergencies.html>For emegency conect info click this:'</a>
 <br>
 Whazzz Upppp!<br>
 <br>
@@ -48,3 +48,6 @@ Back in '92 I put the answer to life the universe and everything into a game I w
 
 
 Just sayin<br>
+<br>
+For information on getting married in Arlington VA click<br>
+(here.)[https://courts.arlingtonva.us/circuit-court/marriage/]
