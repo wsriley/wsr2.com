@@ -8,7 +8,7 @@ Whazzz Upppp!
 
 [LINKED IN](https://www.linkedin.com/in/wsriley/)<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
 
-[ADVENTUAL.COM](http://adventual.com)<= God Does Not Exist but we can build him out of paperclips someday at (http://e3d.us)
+[ADVENTUAL.COM](http://adventual.com)<= God Does Not Exist but we can build him out of paperclips someday.
 
 [e3d.us](http://e3d.us)<= My biz is hinted at here:
 This page is lightweight so whatever device you use you can start without no problemos!
