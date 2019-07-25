@@ -1,4 +1,4 @@
-Info for [emergencies](http://wsr2.com/emergencies.html).
+Info for [emergencies](http://wsr2.com/emergencies/emergencies.html).
 
 I am writing a sci-book and promoting it using special techniques.
 
