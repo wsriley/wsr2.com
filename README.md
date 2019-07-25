@@ -4,7 +4,7 @@ I am writing a sci-book and promoting it using special techniques.
 
 Whazzz Upppp!
 
-[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!](http://wsr2.com/mindOfRiley.html): WARNING!:I am a time traveller and spoilers may BEE PREZENT!
+[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!](http://wsr2.com/mindOfRiley/mindOfRiley.html): WARNING!:I am a time traveller and spoilers may BEE PREZENT!
 
 [LINKED IN](https://www.linkedin.com/in/wsriley/)<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
 
