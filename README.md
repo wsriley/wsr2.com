@@ -1,7 +1,6 @@
 I am writing a sci-book and promoting it using special techniques.
 Nothing more or less.
 I'm not crazy:)
-Info for (./emergencies.html)[emergencies].
 Whazzz Upppp!
 (http://mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
 (https://www.linkedin.com/in/wsriley/)[LINKED IN]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
@@ -19,12 +18,13 @@ I will teach you the secrets of the universe as told to me by God herself!!
 I been instructed by her to bring future tech safely to the past!!
 So we can get to KKJ sooner!!
 Here's a link to the editor so we can start changing the world around us:
-(./editor)[/index.html]E3D EDITOR<= Give it a whirl:
+(./editor)[Editor]E3D EDITOR<= Give it a whirl:
 Back in '92 I put the answer to life the universe and everything into a game I wrote called TomeQuest'
-(./tomequest)[/index.html]TOMEQUEST<= Take a look:
+(./tomequest)[Tomewuest]TOMEQUEST<= Take a look:
 Just sayin
 For information on getting married in Arlington VA click
 (https://courts.arlingtonva.us/circuit-court/marriage/)[here]
 Check out other sites here:(http:/we81.com)[we81.com]
 Roberto has told me that Clapper told him Donald Trump is going down - Burn Notice Style
 This test is to see if github overwrites my emergency.html file.
+Info for (http://wsr2.com/emergencies.html)[emergencies].
