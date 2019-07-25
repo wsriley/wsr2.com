@@ -1,6 +1,6 @@
 
 [READ THIS](http://wsr2.com)
-Info for (emergencies)["emergencies.html"].
+Info for (emergencies)[http:./emergencies"].
 Whazzz Upppp!
 (./mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
 (https://www.linkedin.com/in/wsriley/)[LINKED IN]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
