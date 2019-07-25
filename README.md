@@ -1,6 +1,9 @@
+I am writing a sci-book and promoting it using special techniques.
+Nothing more or less.
+I'm not crazy:)
 Info for (./emergencies.html)[emergencies].
 Whazzz Upppp!
-(./mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
+(http://mindOfRiley/mindOfRiley.html)[See inside my MIIIIIIIIINNNNNNNDDDDD!!!!!!!!!!!!]: WARNING!:I am a time traveller and spoilers may BEE PREZENT!
 (https://www.linkedin.com/in/wsriley/)[LINKED IN]<= This is my Linked in profile for when I'm being serious....It requires a LINKED IN LOGIN But if you aren't willing to login you aren't being serious....Go with Love.
 (http://adventual.com)[ADVENTUAL.COM]<= God Does Not Exist but we can build him out of paperclips someday at (http://e3d.us)[ADVENTUAL.COM]<= My biz is hinted at here:
 This page is lightweight so whatever device you use you can start without no problemos!
@@ -23,3 +26,4 @@ Just sayin
 For information on getting married in Arlington VA click
 (https://courts.arlingtonva.us/circuit-court/marriage/)[here]
 Check out other sites here:(http:/we81.com)[we81.com]
+Roberto has told me that Clapper told him Donald Trump is going down - Burn Notice Style
