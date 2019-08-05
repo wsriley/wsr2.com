@@ -6,6 +6,7 @@ let camera, scene, renderer;
 let dancingMemories = true;
 
 let camPos = {x:500,y:350,z:1750,editing:false,edit:function(){}};
+camPos.target = new THREE.Group();
 let mover = camPos;
 let selection = new THREE.Group();
 let pagesGroup = new THREE.Group();
@@ -17,9 +18,9 @@ let danceThemMemories = function(memories) {
    memories.children.forEach(function(m){
         let tp = m.target.position;
         let p = m.position;
-        m.position.setX(p.x + (tp.x - p.x)/4);
-        m.position.setY(p.y + (tp.y - p.y)/4);
-        m.position.setZ(p.z + (tp.z - p.z)/4);
+        m.position.setX(p.x + (tp.x - p.x)/16);
+        m.position.setY(p.y + (tp.y - p.y)/16);
+        m.position.setZ(p.z + (tp.z - p.z)/16);
     });
 }
 
@@ -208,9 +209,9 @@ function init() {
         '$7ArWV8b0Y4g',
         '$pDYcIdq4OXY',
         '$DI291paS1TU',
-        '$WJtXpufm2eg',
-        '$cEgc8cOQiwc',
-        //'./atari.html?rom=2600/1.bin',
+        //'$WJtXpufm2eg',
+        //'$cEgc8cOQiwc',
+        './atari.html?rom=2600/1.bin',
         //'./atari.html?rom=2600/2.bin',
         //'./atari.html?rom=2600/3.bin',
         //'./atari.html?rom=2600/4.bin',
@@ -251,12 +252,12 @@ function onKeyDown(ev)
                 }        
                 break;
             case 'F2':mover.edit(); break;
-            case 'ArrowUp':mover.y += 10; break;
-			case 'ArrowDown':mover.y -= 10; break;
-			case 'ArrowLeft':mover.x -= 10; break;
-			case 'ArrowRight':mover.x += 10; break;
-			case 'PageUp':mover.z += 10; break;
-			case 'PageDown':mover.z -= 10; break;        
+			case 'ArrowLeft':mover.target.x -= 10; mover.x = mover.target.x; break;
+			case 'ArrowRight':mover.target.x += 10; mover.x = mover.target.x; break;
+            case 'ArrowUp':mover.target.y += 10; mover.x = mover.target.y; break;
+			case 'ArrowDown':mover.target.y -= 10; mover.x = mover.target.y; break;
+			case 'PageUp':mover.target.z += 10; mover.x = mover.target.z; break;
+			case 'PageDown':mover.target.z -= 10; mover.x = mover.target.z; break;        
 
             case 'F3':dancingMemories = !dancingMemories; break;
 
@@ -277,10 +278,10 @@ function onKeyDown(ev)
 			default:if(showKeyPressCodes==true) { alert(ev.code);} break;
 		}
 	} else {
-		switch(ev.code) {
-			case 'F2': mover.edit(); break;
-			case 'F3':dancingMemories = !dancingMemories; break;
-		}
+	switch(ev.code) {
+	 		case 'F2': mover.edit(); break;
+	 		case 'F3':dancingMemories = !dancingMemories; break;
+	    }
 	}
 }
 
