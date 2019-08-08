@@ -78,12 +78,12 @@ var lesson10 = {
     this.clock = new THREE.Clock();
 
     // Prepare stats
-    this.stats = new Stats();
-    this.stats.domElement.style.position = 'absolute';
-    this.stats.domElement.style.left = '50px';
-    this.stats.domElement.style.bottom = '50px';
-    this.stats.domElement.style.zIndex = 1;
-    this.container.appendChild( this.stats.domElement );
+    // this.stats = new Stats();
+    // this.stats.domElement.style.position = 'absolute';
+    // this.stats.domElement.style.left = '50px';
+    // this.stats.domElement.style.bottom = '50px';
+    // this.stats.domElement.style.zIndex = 1;
+    // this.container.appendChild( this.stats.domElement );
 
     // Add lights
     this.scene.add( new THREE.AmbientLight(0x444444));
@@ -209,7 +209,7 @@ function update() {
   var delta = lesson10.clock.getDelta();
 
   lesson10.controls.update(delta);
-  lesson10.stats.update();
+  //lesson10.stats.update();
 }
 
 // Render the scene
