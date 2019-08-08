@@ -48,3 +48,5 @@ Check out other sites here: [We81](http:/we81.com)
 
 Roberto has told me that Clapper told him Donald Trump is going down - Burn Notice Style
 
+If you'd like check out my word press site: [XXXX](wsriley2.wordpress.org)
+
