@@ -1,5 +1,5 @@
-import * as THREE from '../../build/three.module.js';
-import { CSS3DRenderer, CSS3DObject } from '../../examples/jsm/renderers/CSS3DRenderer.js';
+import * as THREE from './three.module.js';
+import { CSS3DRenderer, CSS3DObject } from './CSS3DRenderer.js';
 
 let camera, scene, renderer;
 
