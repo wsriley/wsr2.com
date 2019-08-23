@@ -1,0 +1,111 @@
+.academicons-ul, .fa-ul {list-style-type: none;}
+.academicons-li, .fa-li {top: .14285714em;text-align: center;}
+.academicons-fw, .academicons-li, .fa-fw, .fa-li {text-align: center;}
+.ai.fa-pull-left, .fa.fa-pull-left {margin-right: .3em;}
+@font-face {font-family: Academicons;src: url("../font/academicons.eot?v=1.8.6");src: url("../font/academicons.eot?v=1.8.6") format("embedded-opentype"),url("../font/academicons.ttf?v=1.8.6") format("truetype"),url("../font/academicons.woff?v=1.8.6") format("woff"),url("../font/academicons.svg?v=1.8.6#academicons") format("svg");font-weight: 400;font-style: normal;}
+.academicons {display: inline-block;font: normal normal normal 14px/1 Academicons;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.academicons-lg, .fa-lg {line-height: .75em;vertical-align: -15%;}
+.academicons-academia:before {content: "";}
+.academicons-academia-square:before {content: "";}
+.academicons-acclaim:before {content: "";}
+.academicons-acclaim-square:before {content: "";}
+.academicons-acm:before {content: "";}
+.academicons-acm-square:before {content: "";}
+.academicons-acmdl:before {content: "";}
+.academicons-acmdl-square:before {content: "";}
+.academicons-ads:before {content: "";}
+.academicons-ads-square:before {content: "";}
+.academicons-arxiv:before {content: "";}
+.academicons-arxiv-square:before {content: "";}
+.academicons-biorxiv:before {content: "";}
+.academicons-biorxiv-square:before {content: "";}
+.academicons-ceur:before {content: "";}
+.academicons-ceur-square:before {content: "";}
+.academicons-coursera:before {content: "";}
+.academicons-coursera-square:before {content: "";}
+.academicons-cv:before {content: "";}
+.academicons-cv-square:before {content: "";}
+.academicons-dataverse:before {content: "";}
+.academicons-dataverse-square:before {content: "";}
+.academicons-dblp:before {content: "";}
+.academicons-dblp-square:before {content: "";}
+.academicons-depsy:before {content: "";}
+.academicons-depsy-square:before {content: "";}
+.academicons-doi:before {content: "";}
+.academicons-doi-square:before {content: "";}
+.academicons-dryad:before {content: "";}
+.academicons-dryad-square:before {content: "";}
+.academicons-figshare:before {content: "";}
+.academicons-figshare-square:before {content: "";}
+.academicons-google-scholar:before {content: "";}
+.academicons-google-scholar-square:before {content: "";}
+.academicons-ideas-repec:before {content: "";}
+.academicons-ideas-repec-square:before {content: "";}
+.academicons-ieee:before {content: "";}
+.academicons-ieee-square:before {content: "";}
+.academicons-impactstory:before {content: "";}
+.academicons-impactstory-square:before {content: "";}
+.academicons-inspire:before {content: "";}
+.academicons-inspire-square:before {content: "";}
+.academicons-lattes:before {content: "";}
+.academicons-lattes-square:before {content: "";}
+.academicons-mathoverflow:before {content: "";}
+.academicons-mathoverflow-square:before {content: "";}
+.academicons-mendeley:before {content: "";}
+.academicons-mendeley-square:before {content: "";}
+.academicons-open-access:before {content: "";}
+.academicons-open-access-square:before {content: "";}
+.academicons-orcid:before {content: "";}
+.academicons-orcid-square:before {content: "";}
+.academicons-osf:before {content: "";}
+.academicons-osf-square:before {content: "";}
+.academicons-overleaf:before {content: "";}
+.academicons-overleaf-square:before {content: "";}
+.academicons-philpapers:before {content: "";}
+.academicons-philpapers-square:before {content: "";}
+.academicons-piazza:before {content: "";}
+.academicons-piazza-square:before {content: "";}
+.academicons-publons:before {content: "";}
+.academicons-publons-square:before {content: "";}
+.academicons-pubmed:before {content: "";}
+.academicons-pubmed-square:before {content: "";}
+.academicons-researcherid:before {content: "";}
+.academicons-researcherid-square:before {content: "";}
+.academicons-researchgate:before {content: "";}
+.academicons-researchgate-square:before {content: "";}
+.academicons-scirate:before {content: "";}
+.academicons-scirate-square:before {content: "";}
+.academicons-semantic-scholar:before {content: "";}
+.academicons-semantic-scholar-square:before {content: "";}
+.academicons-springer:before {content: "";}
+.academicons-springer-square:before {content: "";}
+.academicons-zotero:before {content: "";}
+.academicons-zotero-square:before {content: "";}
+.academicons-lg {font-size: 1.33333333em;}
+.academicons-2x {font-size: 2em;}
+.academicons-3x {font-size: 3em;}
+.academicons-4x {font-size: 4em;}
+.academicons-5x {font-size: 5em;}
+.academicons-fw {width: 1.28571429em;}
+.academicons-ul {padding-left: 0;margin-left: 2.14285714em;}
+.academicons-ul>li {position: relative;}
+.academicons-li {position: absolute;left: -2.14285714em;width: 2.14285714em;}
+.academicons-li.fa-lg {left: -1.85714286em;}
+.academicons-border {padding: .2em .25em .15em;border: .08em solid #eee;border-radius: .1em;}
+.academicons-pull-left {float: left;}
+.academicons-pull-right {float: right;}
+.ai.fa-pull-right {margin-left: .3em;}
+.fa-lg {font-size: 1.33333333em;}
+.fa-2x {font-size: 2em;}
+.fa-3x {font-size: 3em;}
+.fa-4x {font-size: 4em;}
+.fa-5x {font-size: 5em;}
+.fa-fw {width: 1.28571429em;}
+.fa-ul {padding-left: 0;margin-left: 2.14285714em;}
+.fa-ul>li {position: relative;}
+.fa-li {position: absolute;left: -2.14285714em;width: 2.14285714em;}
+.fa-li.fa-lg {left: -1.85714286em;}
+.fa-border {padding: .2em .25em .15em;border: .08em solid #eee;border-radius: .1em;}
+.fa-pull-left {float: left;}
+.fa-pull-right {float: right;}
+.fa.fa-pull-right {margin-left: .3em;}

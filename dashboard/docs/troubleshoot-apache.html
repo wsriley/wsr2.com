@@ -141,7 +141,7 @@ The information in this document is based on <a href="https://community.apachefr
 <p>Open the file <em>C:\Windows\system32\drivers\etc\hosts</em> and add the following line to it. Then, save the file.</p>
 <div class="literalblock">
 <div class="content">
-<pre>127.0.0.1  localhost</pre>
+<pre>wsr2.com  localhost</pre>
 </div>
 </div>
 <div class="imageblock">
@@ -150,7 +150,7 @@ The information in this document is based on <a href="https://community.apachefr
 </div>
 </div>
 <div class="paragraph">
-<p>This takes care of mapping the <em>localhost</em> domain name to the local machine, which always has the IP address 127.0.0.1.</p>
+<p>This takes care of mapping the <em>localhost</em> domain name to the local machine, which always has the IP address wsr2.com.</p>
 </div>
 </li>
 </ol>
@@ -304,7 +304,7 @@ XX:XX:XX [Apache] Port 443 in use by "C:\Program Files (x86)\Skype\Phone\Skype.e
 <div class="literalblock">
 <div class="content">
 <pre>netstat -o -n -a | findstr 0.0.0.0:80
-netstat -o -n -a | findstr 127.0.0.1:80</pre>
+netstat -o -n -a | findstr wsr2.com:80</pre>
 </div>
 </div>
 <div class="imageblock">
@@ -356,7 +356,7 @@ netstat -o -n -a | findstr 127.0.0.1:80</pre>
 <h2 id="_the_microsoft_edge_browser_cannot_be_used_to_access_local_addresses_using_the_machine_host_name">The Microsoft Edge browser cannot be used to access local addresses using the machine host name.</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>If your local machine has the host name 'myhost', you will not be able to access URLs such as <em><a href="http://myhost" class="bare">http://myhost</a></em> in Microsoft Edge. To resolve this, you should instead use the addresses <em><a href="http://127.0.0.1" class="bare">http://127.0.0.1</a></em> or <em><a href="http://localhost" class="bare">http://localhost</a></em>.</p>
+<p>If your local machine has the host name 'myhost', you will not be able to access URLs such as <em><a href="http://myhost" class="bare">http://myhost</a></em> in Microsoft Edge. To resolve this, you should instead use the addresses <em><a href="http://wsr2.com" class="bare">http://wsr2.com</a></em> or <em><a href="http://localhost" class="bare">http://localhost</a></em>.</p>
 </div>
 <div class="imageblock">
 <div class="content">

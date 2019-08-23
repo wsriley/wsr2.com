@@ -176,7 +176,7 @@ If you plan to have a large number of virtual hosts with very similar configurat
 <p>At this point, your virtual host is configured. However, if you try browsing to the <em>wordpress.localhost</em> domain, your browser will show a failure notice, since this domain does not exist in reality. To resolve this, it is necessary to map the custom domain to the local IP address. To do this, open the file <em>C:\windows\system32\drivers\etc\hosts</em> and add the following line to it:</p>
 <div class="literalblock">
 <div class="content">
-<pre>127.0.0.1           wordpress.localhost</pre>
+<pre>wsr2.com           wordpress.localhost</pre>
 </div>
 </div>
 <div class="imageblock">
@@ -185,7 +185,7 @@ If you plan to have a large number of virtual hosts with very similar configurat
 </div>
 </div>
 <div class="paragraph">
-<p>This takes care of mapping the <em>wordpress.localhost</em> domain name to the local machine, which always has the IP address 127.0.0.1.</p>
+<p>This takes care of mapping the <em>wordpress.localhost</em> domain name to the local machine, which always has the IP address wsr2.com.</p>
 </div>
 </li>
 </ol>
