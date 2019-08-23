@@ -234,6 +234,7 @@ function init() {
     // Block iframe events when dragging camera
     let blocker = document.getElementById( 'blocker' );
     blocker.style.display = 'none';
+    memMover.init(scene, camera, pagesGroup);
 }
 
 let showKeyPressCodes = false;

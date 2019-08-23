@@ -10,11 +10,37 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
+
+
+
+
 <link rel="stylesheet" id="wp-block-library-css" href="http://wsr2.com/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tooltipster-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/css/tooltipster.bundle.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tooltipster-light-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tooltipster-noir-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tooltipster-punk-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tooltipster-shadow-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-wiki-tooltip-css-css" href="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/css/wp-wiki-tooltip.css" type="text/css" media="all">
+<style id="wp-wiki-tooltip-css-inline-css" type="text/css">
+a.wiki-tooltip { font-style: italic; }
+div.wiki-tooltip-balloon div.head { font-size: 125%; font-weight: bold; }
+div.wiki-tooltip-balloon div.body {  }
+div.wiki-tooltip-balloon div.foot a { font-style: italic; font-weight: bold; }
+div.wiki-tooltip-balloon img.thumb {  }
+</style>
 <link rel="stylesheet" id="dara-style-css" href="http://wsr2.com/wp-content/themes/dara/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="dara-fonts-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C300italic%2C400%2C400italic%2C600%7CYrsa%3A300%2C400%2C700&subset=latin%2Clatin-ext" type="text/css" media="all">
 <link rel="stylesheet" id="genericons-css" href="http://wsr2.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css" type="text/css" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="http://wsr2.com/wp-content/plugins/tablepress/css/default.min.css" type="text/css" media="all">
+<script type="text/javascript" src="http://wsr2.com/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://wsr2.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/external/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wp_wiki_tooltip = {"wp_ajax_url":"http:\/\/wsr2.com\/wp-admin\/admin-ajax.php","wiki_plugin_url":"http:\/\/wsr2.com\/wp-content\/plugins\/wp-wiki-tooltip\/","tooltip_theme":"tooltipster-default","animation":"fade","footer_text":"Click here to open Wiki page\u2026","thumb_enable":"off","thumb_width":"200","thumb_align":"right","trigger":"hover","trigger_hover_action":"none","a_target":"_blank","min_screen_width":"0","error_handling":"show-default","default_error_title":"Error!","default_error_message":"Sorry, but we were not able to find this page :(","own_error_title":"","own_error_message":"","section_error_handling":"show-page"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://wsr2.com/wp-content/plugins/wp-wiki-tooltip/static/js/wp-wiki-tooltip.js"></script>
 
 
 
@@ -76,7 +102,11 @@
 	<li id="menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-547"><a href="http://wsr2.com/health-providers/">Health Providers</a></li>
 </ul>
 </li>
-<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556"><a href="http://wsr2.com/rulez-guidelines/">Rulez & Guidelines</a></li>
+<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-556"><a href="http://wsr2.com/rulez-guidelines/">Rulez & Guidelines</a>
+<ul class="sub-menu">
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="http://wsr2.com/presidential-qualities/">Presidential Qualities</a></li>
+</ul>
+</li>
 </ul></div>	</nav>
 
 	</header>
@@ -146,7 +176,7 @@
 	<span class="sep"> | </span>
 	Theme: Dara by <a href="http://wordpress.com/themes/" rel="designer">Automattic</a>.</div>	</footer>
 </div>
-<script type="text/javascript" src="http://wsr2.com/wp-content/themes/dara/assets/js/navigation.js"></script>
+<div id="wiki-container"></div><script type="text/javascript" src="http://wsr2.com/wp-content/themes/dara/assets/js/navigation.js"></script>
 <script type="text/javascript" src="http://wsr2.com/wp-content/themes/dara/assets/js/skip-link-focus-fix.js"></script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
