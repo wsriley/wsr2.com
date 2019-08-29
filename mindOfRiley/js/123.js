@@ -4,18 +4,18 @@ import { CSS3DRenderer, CSS3DObject } from './CSS3DRenderer.js';
 var memMoverCamera = null;
 var memMoverOffset = new THREE.Vector3();
 var memMoverRaycaster = new THREE.Raycaster();
-var memMoverPlane = new THREE.Mesh(new THREE.PlaneBufferGeometry(500, 500, 8, 8), new THREE.MeshBasicMaterial({color: 0xffffff}));
+var memMoverPlane = new THREE.Mesh(new THREE.PlaneBufferGeometry(10000, 10000, 8, 8), new THREE.MeshBasicMaterial({color: 0xffffff}));
 var memMoverSelection = null; 
 var memMoverControls= null;
 var memMoverObjects= null;
 
 var memMover = {
     init: function(sceneIn, cameraIn, objectsIn, controlsIn = null) {
-      document.addEventListener('mousedown', this.onDocumentMouseDown, false);
-      document.addEventListener('mousemove', this.onDocumentMouseMove, false);
-      document.addEventListener('mouseup', this.onDocumentMouseUp, false);
+      container.addEventListener('mousedown', this.onDocumentMouseDown, false);
+      container.addEventListener('mousemove', this.onDocumentMouseMove, false);
+      container.addEventListener('mouseup', this.onDocumentMouseUp, false);
   
-      memMoverPlane.visible = false;
+      memMoverPlane.visible = true;
       memMoverCamera = cameraIn;
       memMoverObjects = objectsIn;
       memMoverControls = controlsIn;
@@ -125,6 +125,22 @@ let Element = function ( id, x, y, z) {
     div.style.backgroundColor = '#000';
 
     let e3d = new CSS3DObject( div );
+    let geometry = new THREE.Geometry();
+
+    geometry.vertices.push(
+        new THREE.Vector3( 0,  0, -1 ),
+        new THREE.Vector3( 0, 400, -1 ),
+        new THREE.Vector3(  480, 400, -1 ),
+        new THREE.Vector3(  480, 0, -1 )
+    );
+    
+    geometry.faces.push( new THREE.Face4( 0, 1, 2, 3 ) );    
+    geometry.computeBoundingSphere();
+    let material = new THREE.MeshPhongMaterial({color: Math.random() * 0xffffff});
+    material.transparent = true;
+
+    let hitMesh = new THREE.Mesh(geometry.clone(), material);
+    e3d.add(hitMesh);
     e3d.target = new THREE.Group();
     e3d.position.set( x, y, z );
     e3d.target.position.set(x, y, z);
