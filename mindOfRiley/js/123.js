@@ -82,8 +82,8 @@ var memMover = {
 let camera, scene, renderer;
 
 let dancingMemories = true;
-
-let camPos = {x:500,y:350,z:1750,editing:false,edit:function(){}};
+let editing = false;
+let camPos = {x:500,y:350,z:1750,edit:function(){}};
 camPos.target = new THREE.Group();
 let mover = camPos;
 let selection = new THREE.Group();
@@ -152,19 +152,19 @@ let Element = function ( id, x, y, z) {
     e3dPageDiv.style.height = '400px';
     e3dPageDiv.style.backgroundColor = '#00f';
     e3dPageDiv.E3DParent = e3d; 
-    e3dPageDiv.E3DParent.position.editing=false;
+    editing=false;
 
     let editor = document.createElement('div');
     e3dPageDiv.E3DParent.position.edit = function()
     {
-        mover.editing = !mover.editing
-        editor.hidden = !e3dPageDiv.E3DParent.position.editing;
+        editing = !editing;
+        editor.hidden = !editing;
         e3dPageDiv.hidden = !editor.hidden;
     }
     e3dPageDiv.addEventListener('click', function()
     {
         e3dPageSelected = true;
-        mover = e3dPageDiv.E3DParent.position;
+        mover = e3dPageDiv.position;
         selectionPage.style.backgroundColor = '#00f';
         selection = e3d;
         selectionPage = e3dPageDiv;
@@ -339,7 +339,7 @@ let showKeyPressCodes = false;
 
 function onKeyDown(ev)
 {
-	if(!mover.editing) {
+	if(!editing) {
 		switch(ev.code) {
             case 'Space':pagesGroup.add( new Element( './command.html', camPos.x, camPos.y, camPos.z - 800) ); break;
             case 'Delete':
@@ -393,7 +393,7 @@ function onWindowResize() {
 function animate() {
     camera.position.set( camPos.x, camPos.y, camPos.z );
     if(dancingMemories){
-        danceThemMemories(pagesGroup);
+        //danceThemMemories(pagesGroup);
     }
     requestAnimationFrame( animate );
     renderer.render( scene, camera );
